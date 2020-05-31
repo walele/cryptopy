@@ -1,0 +1,5 @@
+name: crypto
+recipe: lamp
+config:
+  webroot:
+    - .
