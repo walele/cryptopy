@@ -8,7 +8,7 @@ class DataFetcher   :
 
     def init(self):
         print('Data Fetcher init...')
-        self.dataMan = DataManager("crypto")
+        self.dataMan = DataManager()
         self.dataMan.init()
 
     def fetch(self):

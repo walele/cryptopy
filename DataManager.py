@@ -8,8 +8,8 @@ class DataManager   :
    dbname = ''
    tables = []
 
-   def __init__(self, dbname):
-      self.dbname = dbname
+   def __init__(self):
+      self.dbname     = os.getenv("db_name")
       self.host     = os.getenv("db_host")
       self.user     = os.getenv("db_user")
       self.passwd   = os.getenv("db_passwd")
